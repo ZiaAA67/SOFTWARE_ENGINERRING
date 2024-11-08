@@ -1,0 +1,15 @@
+{%extends "layout/base.html"%}
+
+{%block content%}
+
+<div class="row">
+    <div class="col-md-5 col 7">
+        <img src="{{product.imgae}}" class = "img-fluid"/>
+    </div>
+    <div class="col-md-5 col 12">
+        <h1 class="text-danger">{{product.name}}</h1>
+        <h1 class="text-info">{{product.price}}</h1>
+    </div>
+</div>
+
+{%endblock%}
